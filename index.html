@@ -91,49 +91,49 @@
             <div class="form">
                 <h3>Get in Touch</h3>
                 <h4>Fill out the form below and start the conversation.</h4>
-                <form>
+                <form id="contactForm">
                     <div class="form_row">
                         <div class="form_group">
                             <label for="">Full Name</label>
-                            <input type="text" placeholder="Enter your full name" required>
+                            <input type="text" name="name" placeholder="Enter your full name" required>
                         </div>
                         <div class="form_group">
                             <label>Category</label>
-                            <select required>
+                            <select name="category" required>
                                 <option value="">Select category</option>
-                                <option value="">Student</option>
-                                <option value="">Employee / Professional</option>
-                                <option value="">Freelancer</option>
-                                <option value="">Recruiter / HR</option>
-                                <option value="">Statup / Business Owner</option>
-                                <option value="">Other</option>
+                                <option value="Student">Student</option>
+                                <option value="Employee">Employee / Professional</option>
+                                <option value="Freelancer">Freelancer</option>
+                                <option value="Recruiter / HR">Recruiter / HR</option>
+                                <option value="Statup / Business Owner">Statup / Business Owner</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
                     </div>
                     <div class="form_row">
                         <div class="form_group">
                             <label for="">Email</label>
-                            <input type="email" placeholder="example@gmail.com" required>
+                            <input type="email" name="email" placeholder="example@gmail.com" required>
                         </div>
                         <div class="form_group">
                             <label>Phone Number</label>
-                            <input type="tel" placeholder="+1(XXX) XXX-XXXX" required>
+                            <input type="tel" name="phone_no." placeholder="+1(XXX) XXX-XXXX" required>
                         </div>
                     </div>
                     <div class="form_row">
                         <div class="form_group">
                             <label for="">Address</label>
-                            <input type="text" placeholder="Enter your Address" required>
+                            <input type="text" name="address" placeholder="Enter your Address" required>
                         </div>
                     </div>
                     <div class="form_row">
                         <div class="form_group">
                             <label for="">Your Message</label>
-                            <textarea name="" id="" placeholder="Tell me about your ideas or query. . ."
+                            <textarea name="message" id="" placeholder="Tell me about your ideas or query. . ."
                                rows="5" required></textarea>
                         </div>
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button type="submit" id="submitBtn">Send Message</button>
                 </form>
             </div>
         </div>
@@ -147,21 +147,7 @@
     </div>
 
 
-    <script>
-        let l = document.querySelector(".fa-youtube");
-        function open_github() {
-            window.location.href = "https://github.com/shivam-raj-0";
-        }
-        function open_linkedin() {
-            window.location.href = "https://www.linkedin.com/in/shivam-raj-619b65329/";
-        }
-        function open_insta() {
-            window.location.href = "https://www.instagram.com/royal_rajput_shivam_/?hl=en";
-        }
-        function open_youtube() {
-            window.location.href = "https://www.youtube.com/@royalhindurashtra";
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
