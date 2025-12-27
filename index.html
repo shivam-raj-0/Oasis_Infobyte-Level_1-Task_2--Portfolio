@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Rampart+One&display=swap"
+        rel="stylesheet">
+
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="full_body">
+        <div>
+            <div class="header_nav">
+                <h2>Portfolio.</h2>
+                <div class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Service</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="contaner">
+            <div class="content">
+                <div class="content1">
+                    <h1>Shivam Singh</h1>
+                    <h2>I'm a <span>Frontrnt Developer</span></h2>
+                    <p>I was a Computer Science Engineering student specializing in Artificial Intelligence and Machine
+                        Learning. I had a strong interest in software development, web technologies, and intelligent
+                        systems. During my academic journey, I worked on several projects that enhanced my
+                        problem-solving
+                        skills and strengthened my understanding of programming concepts.</p>
+
+                    <p>I gained hands-on experience with technologies such as HTML, CSS, JavaScript, Python,<br> C
+                        programming and
+                        Arduino-based hardware projects. I actively explored areas like robotics, machine learning, and
+                        real-time applications, which helped me build a practical and analytical mindset.</p>
+
+                    <p>I was always eager to learn new technologies and improve my technical skills through projects,
+                        workshops, and self-learning. My passion for innovation and continuous learning motivated me to
+                        grow
+                        as a developer and engineer.</p>
+                </div>
+                <div class="content2">
+                    <form action="https://drive.google.com/file/d/1slOvECaEpGIXh8D0fHxnrAOYDkz0rQj8/view?usp=sharing">
+                        <button>View My CV</button>
+                    </form>
+                    <i class="fa-brands fa-github" onclick="open_github()"></i>
+                    <i class="fa-brands fa-linkedin-in" onclick="open_linkedin()"></i>
+                    <i class="fa-brands fa-instagram" onclick="open_insta()"></i>
+                    <i class="fa-brands fa-youtube" onclick="open_youtube()"></i>
+                </div>
+            </div>
+            <div class="img">
+                <img src="img/img_s.jpg" alt="error">
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="contact_us">
+                <h2>Contact Us</h2>
+                <p>Looking to collaborate on a project or need<br> technical assistance?
+                    <br>Feel free to contact me for Web Development,<br> AI/ML solutions, Software projects, or any<br>
+                    innovative
+                    tech ideas.<br>
+                    Let’s connect and turn your ideas into reality.
+                </p>
+                <a href="mailto:shivam.study620@gmail.com?subject=&body="><i
+                        class="fa-solid fa-envelope"></i>shivam.study620@gmail.com</a>
+                <a href="tel:9006447009"><i class="fa-solid fa-phone"></i>9006447009</a>
+                <a href="https://maps.app.goo.gl/GtocGFoN8oFz5qfM6" target="_blank"><i class="fa-solid fa-location-dot"></i>Salempur Chapra, Bihar(841301)</a>
+            </div>
+            <div class="form">
+                <h3>Get in Touch</h3>
+                <h4>Fill out the form below and start the conversation.</h4>
+                <form>
+                    <div class="form_row">
+                        <div class="form_group">
+                            <label for="">Full Name</label>
+                            <input type="text" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form_group">
+                            <label>Category</label>
+                            <select required>
+                                <option value="">Select category</option>
+                                <option value="">Student</option>
+                                <option value="">Employee / Professional</option>
+                                <option value="">Freelancer</option>
+                                <option value="">Recruiter / HR</option>
+                                <option value="">Statup / Business Owner</option>
+                                <option value="">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form_row">
+                        <div class="form_group">
+                            <label for="">Email</label>
+                            <input type="email" placeholder="example@gmail.com" required>
+                        </div>
+                        <div class="form_group">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="+1(XXX) XXX-XXXX" required>
+                        </div>
+                    </div>
+                    <div class="form_row">
+                        <div class="form_group">
+                            <label for="">Address</label>
+                            <input type="text" placeholder="Enter your Address" required>
+                        </div>
+                    </div>
+                    <div class="form_row">
+                        <div class="form_group">
+                            <label for="">Your Message</label>
+                            <textarea name="" id="" placeholder="Tell me about your ideas or query. . ."
+                               rows="5" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            Copyright © 2025 All rights reserved By <b>Shivam</b>
+            <br>
+            Designed & Developed with ❤️ by <span style="font-family: 'Times New Roman', Times, serif;"><b>Shivam
+                    Singh</b></span>
+        </div>
+    </div>
+
+
+    <script>
+        let l = document.querySelector(".fa-youtube");
+        function open_github() {
+            window.location.href = "https://github.com/shivam-raj-0";
+        }
+        function open_linkedin() {
+            window.location.href = "https://www.linkedin.com/in/shivam-raj-619b65329/";
+        }
+        function open_insta() {
+            window.location.href = "https://www.instagram.com/royal_rajput_shivam_/?hl=en";
+        }
+        function open_youtube() {
+            window.location.href = "https://www.youtube.com/@royalhindurashtra";
+        }
+    </script>
+</body>
+
+</html>
