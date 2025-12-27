@@ -264,7 +264,9 @@ body {
     font-size: 14px;
 }
 
-/*  */
+.form_group textarea{
+    resize: none;
+}     
 
 .form_group input:focus,
 .form_group select:focus,
