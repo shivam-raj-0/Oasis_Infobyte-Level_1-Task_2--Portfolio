@@ -37,7 +37,7 @@ body {
     filter: drop-shadow(0 0 5px lightgreen);
 }
 
-.contaner {
+.container {
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -303,7 +303,7 @@ body {
         gap: 25px;
     }
 
-    .contaner {
+    .container {
         flex-direction: column-reverse;
         top: 40px;
         padding: 20px;
