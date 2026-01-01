@@ -288,7 +288,7 @@ body {
 .form button:hover {
     background: #473864;
 }
-
+/* responsiveness */
 @media (max-width: 992px) {
 
     .header_nav {
